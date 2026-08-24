@@ -11,7 +11,7 @@ projects = [
             "SQLite", "SQLAlchemy", "Forms", "Validation", 
             "Session Storage"
         ],
-        "github": "https://github.com/Misaq960/Personal-Project-Portfolio.git",
+        "github": "https://github.com/Misaq960/Project-Portfolio.git",
         "description": "A website to document my progress, milestones and display all projects I have been apart of in my coding journey. "
     },
 
