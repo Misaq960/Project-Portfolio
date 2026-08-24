@@ -1,1 +1,135 @@
+/* Base */
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #121212;
+    color: #e6e6e6;
+}
 
+.container {
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+}
+
+
+/* Header Section */
+.header-section {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+    padding: 20px 30px;
+    background-color: #1a1a1a;
+    border-bottom: 1px solid #2a2a2a;
+    box-sizing: border-box;
+}
+
+/* Email (top-left) */
+.top-left {
+    font-size: 14px;
+    color: #bdbdbd;
+}
+
+/* Centred name */
+.top-centre {
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.top-centre h1 {
+    margin: 0;
+    font-size: 36px;
+    color: #e6e6e6;
+}
+
+/* LinkedIn (top-right) */
+.top-right a {
+    font-size: 14px;
+    color: #bdbdbd;
+    text-decoration: none;
+}
+
+.top-right a:hover {
+    color: #ffffff;
+}
+
+
+/* Intro / Upper Section */
+.upper-section {
+    padding: 30px;
+    background-color: #1a1a1a;
+    border-bottom: 1px solid #2a2a2a;
+    box-sizing: border-box;
+    overflow-y: auto;
+}
+
+.intro {
+    margin-top: 20px;
+    font-size: 15px;
+    line-height: 1.5;
+    color: #e6e6e6;
+}
+
+
+/* Lower Section (Projects)*/
+.lower-section {
+    height: 70%;
+    padding: 30px;
+    overflow-y: scroll;
+    box-sizing: border-box;
+}
+
+
+/* Project Cards*/
+.project-card {
+    background: #1e1e1e;
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 8px;
+    border: 1px solid #2a2a2a;
+    transition: box-shadow 0.2s ease, transform 0.1s ease;
+}
+
+.project-card:hover {
+    box-shadow: 0 2px 10px rgba(255,255,255,0.05);
+    transform: translateY(-2px);
+}
+
+/* Year label */
+.year {
+    font-size: 14px;
+    color: #bdbdbd;
+}
+
+/* Tags */
+.tags {
+    margin: 10px 0;
+}
+
+.tag {
+    display: inline-block;
+    background: #2f2f2f;
+    color: #e6e6e6;
+    padding: 4px 8px;
+    margin-right: 6px;
+    border-radius: 4px;
+    font-size: 12px;
+}
+
+/* Buttons*/
+.github-button {
+    display: inline-block;
+    margin-top: 10px;
+    padding: 8px 12px;
+    background: #0a84ff;
+    color: white;
+    text-decoration: none;
+    border-radius: 4px;
+    transition: background 0.2s ease;
+}
+
+.github-button:hover {
+    background: #409cff;
+}

@@ -7,24 +7,14 @@ projects = [
         "year": 2026,
         "title": "Personal Project Portfolio",
         "tags": [
-            "Static Website", "Python", "Flask", "HTML", "CSS", "Jinja",
-            "SQLite", "SQLAlchemy", "Web App",
-            "Forms", "Validation", "Session Storage"
+            "Python", "Flask", "HTML", "CSS", "Jinja",
+            "SQLite", "SQLAlchemy", "Forms", "Validation", 
+            "Session Storage"
         ],
         "github": "https://github.com/Misaq960/Personal-Project-Portfolio.git",
-        "description": "Write this later."
+        "description": "A website to document my progress, milestones and display all projects I have been apart of in my coding journey. "
     },
-    {
-        "year": 2026,
-        "title": "Web Applications Shop Coursework",
-        "tags": [
-            "Dynamic Website", "Python", "Flask", "HTML", "CSS", "Jinja",
-            "SQLite", "SQLAlchemy", "Web App",
-            "Forms", "Validation", "Session Storage"
-        ],
-        "github": "https://github.com/Misaq960/Web-Applications-Shop-Coursework-.git",
-        "description": "Write this later."
-    },
+
     {
         "year": 2025,
         "title": "A-Level Streetwise Driving System",
@@ -33,7 +23,7 @@ projects = [
             "SQL", "MySQL", "Desktop App", "Database Integration"
         ],
         "github": "https://github.com/Misaq960/Streetwise-Driving-System.git",
-        "description": "Write this later."
+        "description": "A client-driven desktop app develoepd to aid both driving instructurs and learners together. Containing a booking/scheduling system, and an assessment system, with different permissions between learners and instructors."
     }
 ]
 
