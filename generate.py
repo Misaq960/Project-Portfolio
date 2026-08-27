@@ -23,7 +23,7 @@ projects = [
             "SQL", "MySQL", "Desktop App", "Database Integration"
         ],
         "github": "https://github.com/Misaq960/Streetwise-Driving-System.git",
-        "description": "A client-driven desktop app develoepd to aid both driving instructors and learners together. Containing a booking/scheduling system, and an assessment system, with different permissions between learners and instructors."
+        "description": "A client-driven desktop app developed to aid both driving instructors and learners together. Containing a booking/scheduling system, and an assessment system, with different permissions between learners and instructors."
     }
 ]
 
